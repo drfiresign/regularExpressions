@@ -10,5 +10,5 @@ last_name = r'Love'
 first_name = r'Kenneth'
 # print(re.match(last_name, data))
 # print(re.search(first_name, data))
-
-print(re.search(r'\(\d\d\d\) \d\d\d-\d\d\d\d', data))
+# print(re.findall(r'\(?\d{3}\)?-?\s?\d{3}-\d{4}', data))
+print(re.findall(r'\w*, \w+', data))
